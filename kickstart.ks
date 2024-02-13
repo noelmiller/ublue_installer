@@ -1,4 +1,4 @@
-%include fedora-kickstarts/fedora-live-kde.ks
+%include submodules/fedora-kickstarts/fedora-live-kde.ks
 
 part / --size 15000 --fstype ext4
 
