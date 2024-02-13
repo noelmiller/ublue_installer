@@ -1,10 +1,7 @@
 %include submodules/fedora-kickstarts/fedora-live-kde.ks
 
-part / --size 15000 --fstype ext4
-
 %packages
 rpm-ostree
-podman
 %end
 
 # TODO: remove the --no-signature-verification
